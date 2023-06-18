@@ -1,0 +1,52 @@
+
+.buttons {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+.Pedra-button,
+.Papel-button,
+.Tesoura-button {
+  padding: 10px 20px;
+  border-style: solid;
+  border-color: yellow;
+  border-radius: 80px;
+  background-color: lightblue;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family:Anton;
+  cursor: pointer;
+  transition: background-color 0.30s,
+  color 0.30s;
+}
+.Pedra-button:hover,
+.Papel-button:hover,
+.Tesoura-button:hover,
+.resetPoints-button:hover {
+   background-color: #020e32;
+   color: white;
+}
+.resetPoints-button {
+  padding: 10px 20px;
+  border-style: solid;
+  border-color: yellow;
+  border-radius: 80px;
+  background-color: lightblue;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family:Anton;
+  cursor: pointer;
+  transition: background-color,
+  color 0.30s;
+  margin-top: 100px;
+  padding-left: 20px;
+}
+.pontuation-space {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
